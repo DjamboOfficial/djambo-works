@@ -6,7 +6,7 @@ export const Homepage = () => {
       <div className="homepage-container">
         <div className="top-section">
           <div className="header-top-section-text">
-            <h1>Indie Web Developer</h1>
+            <h1>Another Indie Web Developer</h1>
             <p>
               {" "}
               I'm Edoardo Giambuzzi. I'm an Indie Web Developer, and I enjoy

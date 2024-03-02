@@ -10,7 +10,8 @@ export const projects = [
     name: "serenitas",
     logoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599342/portfolio/2-removebg-preview_swhv6r.png",
-    videoUrl: "",
+    videoUrl:
+      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708600317/project-sample-videos/serenitas-video_teilwh.mov",
     description: "A timer.",
   },
   {
@@ -18,7 +19,7 @@ export const projects = [
     logoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599341/portfolio/1-removebg-preview_jtzf52.png",
     videoUrl:
-      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708601061/project-sample-videos/vox-stoica-api_f7nojd.mov",
+      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708948088/project-sample-videos/vox-stoica-api-video_r89ypm.mov",
     description: "Voices from the past.",
   },
   {
