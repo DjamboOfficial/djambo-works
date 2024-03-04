@@ -21,7 +21,7 @@ body {
   margin-top: 10vh;
   border-radius: 5vh;
   display: flex;
-  height: 30vh;
+  height: 35vh;
   width: 50vw;
   border: 1px solid black;
   color: black;
@@ -88,7 +88,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 5vh;
-  width: 2.2vw;
   background-color: black;
   border-radius: 50%;
 }
@@ -115,5 +114,11 @@ body {
 
 .project-video {
   height: 100%;
-  width: 100%;
+  min-width: 100%;
+}
+
+h5 {
+  font-size: 2vh;
+  margin-left: 1vw;
+  margin-bottom: 1vh;
 }

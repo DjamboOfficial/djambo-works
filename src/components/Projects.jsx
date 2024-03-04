@@ -15,7 +15,7 @@ export const projects = [
     description: "A timer.",
   },
   {
-    name: "Vox Stoica API",
+    name: "Vox Romana API",
     logoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599341/portfolio/1-removebg-preview_jtzf52.png",
     videoUrl:
