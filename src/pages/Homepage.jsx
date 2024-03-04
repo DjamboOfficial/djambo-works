@@ -14,7 +14,6 @@ export const Homepage = () => {
             </p>
             <div className="header-top-section-text-links">
               <h5>Contact</h5>
-              <h5>Twitter</h5>
               <h5>LinkedIn</h5>
               <h5>Blog</h5>
             </div>

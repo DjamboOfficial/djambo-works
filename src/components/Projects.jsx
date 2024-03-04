@@ -34,7 +34,7 @@ export const projects = [
     logoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599342/portfolio/4-removebg-preview_pc4gsq.png",
     videoUrl:
-      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708600977/project-sample-videos/spellworth_bp7wbg.mov",
+      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1709552864/project-sample-videos/spellworth_gqpx57.mov",
     description: "A farm.",
   },
 ];
