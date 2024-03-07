@@ -13,7 +13,7 @@ export const projects = [
     logoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599342/portfolio/2-removebg-preview_swhv6r.png",
     videoUrl:
-      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708600317/project-sample-videos/serenitas-video_teilwh.mov",
+      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1709830141/project-sample-videos/serenitas-video-480_ixor2q.mov",
     description: "A timer.",
   },
   {
