@@ -98,9 +98,9 @@ body {
 
 .project-card-video-container {
   width: 12vw;
-
+  box-sizing: content-box;
   border-radius: 3vh;
-  width: 12vw;
+  width: 10vw;
   margin-right: 2vw;
   margin-left: 2vw;
   background-color: transparent;

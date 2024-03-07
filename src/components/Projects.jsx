@@ -1,4 +1,5 @@
 export const projects = [
+  /*
   {
     name: "Berlin Warrior",
     logoUrl:
@@ -6,6 +7,7 @@ export const projects = [
     videoUrl: "ciaone",
     description: "A Berlin game.",
   },
+  */
   {
     name: "serenitas",
     logoUrl:
