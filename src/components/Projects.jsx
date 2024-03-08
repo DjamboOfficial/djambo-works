@@ -15,6 +15,7 @@ export const projects = [
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1709830141/project-sample-videos/serenitas-video-480_ixor2q.mov",
     description: "A timer.",
+    link: "",
   },
   {
     name: "Vox Romana API",
@@ -23,6 +24,7 @@ export const projects = [
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708948088/project-sample-videos/vox-stoica-api-video_r89ypm.mov",
     description: "Voices from the past.",
+    link: "",
   },
   {
     name: "Tiny Treats",
@@ -30,6 +32,7 @@ export const projects = [
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599343/portfolio/3-removebg-preview_1_drfpik.png",
     videoUrl: "ciaone",
     description: "A platform to buy gifts in.",
+    link: "",
   },
   {
     name: "Spellworth Farm",
@@ -38,5 +41,6 @@ export const projects = [
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1709552864/project-sample-videos/spellworth_gqpx57.mov",
     description: "A farm.",
+    link: "https://spellworth-butterbeer.netlify.app/",
   },
 ];

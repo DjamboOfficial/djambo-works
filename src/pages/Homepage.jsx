@@ -43,13 +43,15 @@ export const Homepage = () => {
                 <h4 className="project-name">{project.name}</h4>
               </div>
               <div className="project-card-video-container">
-                <video
-                  className="project-video"
-                  src={project.videoUrl}
-                  alt="video-url"
-                  autoPlay
-                  loop
-                ></video>
+                <a href={project.link}>
+                  <video
+                    className="project-video"
+                    src={project.videoUrl}
+                    alt="video-url"
+                    autoPlay
+                    loop
+                  ></video>
+                </a>
               </div>
               <p className="project-description">{project.description}</p>
             </div>

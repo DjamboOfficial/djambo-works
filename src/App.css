@@ -98,7 +98,6 @@ body {
 
 .project-card-video-container {
   width: 12vw;
-  box-sizing: content-box;
   border-radius: 3vh;
   width: 10vw;
   margin-right: 2vw;
@@ -110,10 +109,13 @@ body {
   overflow: hidden;
   border: 2px double black;
 }
-
-.project-video {
+.project-card-video-container a {
   height: 100%;
-  min-width: 100%;
+  width: 25vw;
+}
+.project-video {
+  height: 110%;
+  width: 100%;
 }
 /* Hello stranger, should you be here? */
 h5 {
