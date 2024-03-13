@@ -15,7 +15,7 @@ export const projects = [
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1709830141/project-sample-videos/serenitas-video-480_ixor2q.mov",
     description: "A timer.",
-    link: "",
+    link: "https://serenitas.netlify.app/",
   },
   {
     name: "Vox Romana API",
@@ -27,9 +27,9 @@ export const projects = [
     link: "",
   },
   {
-    name: "Tiny Treats",
+    name: "boxi",
     logoUrl:
-      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599343/portfolio/3-removebg-preview_1_drfpik.png",
+      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1709892175/portfolio/boxi-logo-white_fkr3nz.png",
     videoUrl: "ciaone",
     description: "A platform to buy gifts in.",
     link: "",
