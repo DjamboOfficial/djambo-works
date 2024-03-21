@@ -29,7 +29,7 @@ export const projects = [
   {
     name: "boxi",
     logoUrl:
-      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1709892175/portfolio/boxi-logo-white_fkr3nz.png",
+      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1711036672/portfolio/boxi-logo_q3n2kq.png",
     videoUrl: "ciaone",
     description: "A platform to buy gifts in.",
     link: "",
