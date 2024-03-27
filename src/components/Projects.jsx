@@ -24,7 +24,7 @@ export const projects = [
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708948088/project-sample-videos/vox-stoica-api-video_r89ypm.mov",
     description: "An API of Roman quotes.",
-    link: "",
+    link: "https://ornate-flan-9b9322.netlify.app/",
   },
   {
     name: "boxi (under construction)",
@@ -42,6 +42,6 @@ export const projects = [
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1709552864/project-sample-videos/spellworth_gqpx57.mov",
     description: "A Butterbeer farm's website.",
-    link: "https://spellworth-butterbeer.netlify.app/",
+    link: "https://spellworth-butterbeer-farm.netlify.app/",
   },
 ];
