@@ -27,7 +27,7 @@ export const projects = [
     link: "",
   },
   {
-    name: "boxi",
+    name: "boxi (under construction)",
     logoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1711036672/portfolio/boxi-logo_q3n2kq.png",
     videoUrl:
