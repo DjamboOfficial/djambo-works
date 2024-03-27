@@ -14,7 +14,7 @@ export const projects = [
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599342/portfolio/2-removebg-preview_swhv6r.png",
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1709830141/project-sample-videos/serenitas-video-480_ixor2q.mov",
-    description: "A timer.",
+    description: "A Rome-inspired timer app.",
     link: "https://serenitas.netlify.app/",
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599341/portfolio/1-removebg-preview_jtzf52.png",
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708948088/project-sample-videos/vox-stoica-api-video_r89ypm.mov",
-    description: "Voices from the past.",
+    description: "An API of Roman quotes.",
     link: "",
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1711036672/portfolio/boxi-logo_q3n2kq.png",
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1711478579/project-sample-videos/boxi_fp63vp.mov",
-    description: "A platform to buy gifts in.",
+    description: "An eCommerce platform.",
     link: "",
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708599342/portfolio/4-removebg-preview_pc4gsq.png",
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1709552864/project-sample-videos/spellworth_gqpx57.mov",
-    description: "A farm.",
+    description: "A Butterbeer farm's website.",
     link: "https://spellworth-butterbeer.netlify.app/",
   },
 ];

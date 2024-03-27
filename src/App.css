@@ -42,6 +42,13 @@ body {
   gap: 4vh;
 }
 
+.header-top-section-text-links a,
+h5 {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
 .header-top-section-image-container {
   overflow: hidden;
   height: 100%;
@@ -71,7 +78,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 30vh;
+  height: 40vh;
   border: 1px solid darkgreen;
   border-radius: 15%;
 }
@@ -99,13 +106,13 @@ body {
 .project-card-video-container {
   width: 12vw;
   border-radius: 3vh;
-  width: 10vw;
+  width: 13vw;
   margin-right: 2vw;
   margin-left: 2vw;
   background-color: transparent;
   display: flex;
   justify-content: center;
-  align-items: center;
+
   overflow: hidden;
   border: 2px double black;
 }
@@ -113,8 +120,8 @@ body {
   height: 100%;
   width: 25vw;
 }
-.project-video {
-  height: 110%;
+.project-card-video-container video {
+  height: 100%;
   width: 100%;
 }
 /* Hello stranger, should you be here? */
@@ -122,4 +129,9 @@ h5 {
   font-size: 2vh;
   margin-left: 1vw;
   margin-bottom: 1vh;
+}
+
+.project-description {
+  font-size: 2.5vh;
+  text-align: center;
 }

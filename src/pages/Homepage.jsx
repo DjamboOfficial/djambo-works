@@ -1,6 +1,12 @@
 import { projects } from "../components/Projects";
 
 export const Homepage = () => {
+  const handleContactClick = () => {
+    const recipientEmail = "edoardo.giambuzzi@gmail.com";
+    const mailToLink = `mailto:${recipientEmail}`;
+    window.location.href = mailToLink;
+  };
+
   return (
     <>
       <div className="homepage-container">
@@ -13,7 +19,7 @@ export const Homepage = () => {
               creating apps that increase your productivity and peace of mind.
             </p>
             <div className="header-top-section-text-links">
-              <h5>Contact</h5>
+              <h5 onClick={handleContactClick}>Contact</h5>
 
               <a href="https://www.linkedin.com/in/edoardo-giambuzzi-45876599/">
                 <h5>LinkedIn</h5>
