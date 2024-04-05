@@ -24,7 +24,7 @@ export const projects = [
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1708948088/project-sample-videos/vox-stoica-api-video_r89ypm.mov",
     description: "An API of Roman quotes.",
-    link: "https://ornate-flan-9b9322.netlify.app/",
+    link: "https://vox-romana-api.netlify.app/",
   },
   {
     name: "boxi (under construction)",
