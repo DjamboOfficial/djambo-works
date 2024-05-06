@@ -138,6 +138,21 @@ h5 {
   text-align: center;
 }
 
+.languages {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  gap: 1vh;
+  width: 10vw;
+  border-radius: 5vh;
+}
+
+.language-logo {
+  height: 50%;
+}
+
 @media (max-width: 900px) {
   .bottom-section {
     display: none;

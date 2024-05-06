@@ -59,6 +59,18 @@ export const Homepage = () => {
                 </a>
               </div>
               <p className="project-description">{project.description}</p>
+              <div className="languages">
+                <div className="languages">
+                  {project.languages.map((languageUrl, index) => (
+                    <img
+                      className="language-logo"
+                      key={index}
+                      src={languageUrl}
+                      alt="language-logo"
+                    />
+                  ))}
+                </div>
+              </div>
             </div>
           ))}
         </div>
