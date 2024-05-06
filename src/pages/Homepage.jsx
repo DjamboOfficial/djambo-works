@@ -1,3 +1,4 @@
+import React from "react";
 import { projects } from "../components/Projects";
 
 export const Homepage = () => {
@@ -20,11 +21,9 @@ export const Homepage = () => {
             </p>
             <div className="header-top-section-text-links">
               <h5 onClick={handleContactClick}>Contact</h5>
-
               <a href="https://www.linkedin.com/in/edoardo-giambuzzi-45876599/">
                 <h5>LinkedIn</h5>
               </a>
-
               <h5>Blog</h5>
             </div>
           </div>

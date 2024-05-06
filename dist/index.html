@@ -9,10 +9,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>djambo.works</title>
     <script type="module" crossorigin src="/assets/index-CsOpSPBS.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-SkeI5LuY.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-SkeI5LuY.css" />
   </head>
   <body>
     <div id="root"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.waves.min.js"></script>
+    <script>
+      VANTA.WAVES({
+        el: "#homepage-container",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x3e57aa,
+        shininess: 150.0,
+        waveSpeed: 0.5,
+        zoom: 0.65,
+      });
+    </script>
   </body>
 </html>

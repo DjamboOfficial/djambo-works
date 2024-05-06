@@ -44,6 +44,15 @@ export const projects = [
     description: "A Butterbeer farm's website.",
     link: "https://spellworth-butterbeer-farm.netlify.app/",
   },
+  {
+    name: "mimir",
+    logoUrl:
+      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1714146928/portfolio/mimir.png",
+    videoUrl:
+      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1714995705/project-sample-videos/mimir_xa3fp2.mov",
+    description: "A social media app for booklovers.",
+    link: "https://mimir-rho.vercel.app/",
+  },
 ];
 
 /* Ciao! */

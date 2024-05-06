@@ -18,16 +18,18 @@ body {
 }
 
 .top-section {
-  margin-top: 10vh;
+  margin-top: 5vh;
   border-radius: 5vh;
   display: flex;
   height: 35vh;
   width: 50vw;
   border: 1px solid black;
   color: black;
+  overflow: hidden;
 }
 
 .header-top-section-text {
+  display: flex;
   margin-left: 1.5vh;
   font-size: 1.8vh;
   height: 100%;
@@ -37,9 +39,10 @@ body {
 }
 
 .header-top-section-text-links {
+  margin-top: -3vh;
   display: flex;
   flex-direction: row;
-  gap: 4vh;
+  gap: 1vh;
 }
 
 .header-top-section-text-links a,
@@ -112,7 +115,6 @@ h5 {
   background-color: transparent;
   display: flex;
   justify-content: center;
-
   overflow: hidden;
   border: 2px double black;
 }
@@ -134,4 +136,26 @@ h5 {
 .project-description {
   font-size: 1.5vh;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .bottom-section {
+    display: none;
+  }
+  .top-section {
+    height: 70vh;
+    width: 50vw;
+    justify-content: center;
+    place-items: center;
+    text-justify: auto;
+  }
+  .header-top-section-image-container img {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .project-logo {
+    display: none;
+  }
 }
