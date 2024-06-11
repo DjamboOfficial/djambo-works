@@ -10,7 +10,7 @@ export const Homepage = () => {
 
   return (
     <>
-      <div className="h-100 bg-fuchsia-200">
+      <div className="h-100 bg-fuchsia-200 p-4">
         <div className="flex p-8 justify-center items-center">
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="rounded-lg flex gap-3 overflow-hidden border border-black mt-4 items-center">
@@ -25,15 +25,19 @@ export const Homepage = () => {
                 </p>
                 <div className="flex gap-2">
                   <h5
-                    className="text-3xl font-bold ml-2 mb-2"
+                    className="text-3xl font-bold ml-2 mb-2 cursor-pointer hover:text-blue-500 transition duration-300"
                     onClick={handleContactClick}
                   >
                     Contact
                   </h5>
                   <a href="https://www.linkedin.com/in/edoardo-giambuzzi-45876599/">
-                    <h5 className="text-3xl font-bold ml-2 mb-2">LinkedIn</h5>
+                    <h5 className="text-3xl font-bold ml-2 mb-2 cursor-pointer hover:text-blue-500 transition duration-300">
+                      LinkedIn
+                    </h5>
                   </a>
-                  <h5 className="text-3xl font-bold ml-2 mb-2">Blog</h5>
+                  <h5 className="text-3xl font-bold ml-2 mb-2 cursor-pointer hover:text-blue-500 transition duration-300">
+                    Blog
+                  </h5>
                 </div>
               </div>
               <div className="flex w-1/3 items-center justify-center">

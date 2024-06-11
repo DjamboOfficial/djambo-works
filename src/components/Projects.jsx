@@ -67,8 +67,8 @@ export const projects = [
     logoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1718099225/portfolio/Screenshot_2024-06-11_alle_11.46.40_pozowx.png",
     videoUrl:
-      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1714995705/project-sample-videos/mimir_xa3fp2.mov",
-    description: "An Instagram rip-off.",
+      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1718103081/project-sample-videos/mimir_b8jdto.mov",
+    description: "A shameless Instagram rip-off.",
     link: "https://mimir-rho.vercel.app/",
     languages: [
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1714997837/portfolio/languages/nextjs_u2hpol.png",
