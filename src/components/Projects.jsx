@@ -65,13 +65,25 @@ export const projects = [
   {
     name: "mimir",
     logoUrl:
-      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1714146928/portfolio/mimir.png",
+      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1718099225/portfolio/Screenshot_2024-06-11_alle_11.46.40_pozowx.png",
     videoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1714995705/project-sample-videos/mimir_xa3fp2.mov",
-    description: "A social media app for booklovers.",
+    description: "An Instagram rip-off.",
     link: "https://mimir-rho.vercel.app/",
     languages: [
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1714997837/portfolio/languages/nextjs_u2hpol.png",
+      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1714997825/portfolio/languages/tailwind-logo_zoun5d.png",
+    ],
+  },
+  {
+    name: "grandTour",
+    logoUrl:
+      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1718098969/portfolio/Screenshot_2024-06-11_alle_11.42.21_d7bowz.png",
+    videoUrl: "",
+    description: "A real-estate app.",
+    link: "https://grandtour-r5c5.onrender.com/",
+    languages: [
+      "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1714997026/portfolio/languages/react-logo_vhnzkw.png",
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1714997825/portfolio/languages/tailwind-logo_zoun5d.png",
     ],
   },
