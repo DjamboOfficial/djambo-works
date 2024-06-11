@@ -79,8 +79,9 @@ export const projects = [
     name: "grandTour",
     logoUrl:
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1718098969/portfolio/Screenshot_2024-06-11_alle_11.42.21_d7bowz.png",
-    videoUrl: "",
-    description: "A real-estate app.",
+    videoUrl:
+      "https://res.cloudinary.com/dgwvbd9ki/video/upload/v1718112846/grandtour_libdfp.mov",
+    description: "A cool real-estate app.",
     link: "https://grandtour-r5c5.onrender.com/",
     languages: [
       "https://res.cloudinary.com/dgwvbd9ki/image/upload/v1714997026/portfolio/languages/react-logo_vhnzkw.png",
