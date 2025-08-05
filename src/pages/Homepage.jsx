@@ -3,99 +3,120 @@ import { projects } from "../components/Projects";
 
 export const Homepage = () => {
   const handleContactClick = () => {
-    const recipientEmail = "edoardo.giambuzzi@gmail.com";
-    const mailToLink = `mailto:${recipientEmail}`;
-    window.location.href = mailToLink;
+    window.location.href = "mailto:edoardo.giambuzzi@gmail.com";
   };
 
   return (
-    <>
-      <div className="h-100 bg-fuchsia-200 p-4">
-        <div className="flex p-8 justify-center items-center">
-          <div className="flex flex-col items-center justify-center gap-4">
-            <div className="rounded-lg flex gap-3 overflow-hidden border border-black mt-4 items-center">
-              <div className="flex flex-col w-2/3 gap-10 h-full items-center">
-                <h1 className="text-2xl text-black font-bold mt-2">
-                  Another Indie Web Developer
-                </h1>
-                <p className="text-xl p-2 text-center">
-                  {" "}
-                  I'm Edoardo Giambuzzi. I live in Berlin, and I enjoy creating
-                  apps that increase your productivity and peace of mind.
-                </p>
-                <div className="flex gap-2">
-                  <h5
-                    className="text-3xl font-bold ml-2 mb-2 cursor-pointer hover:text-blue-500 transition duration-300"
-                    onClick={handleContactClick}
-                  >
-                    Contact
-                  </h5>
-                  <a href="https://www.linkedin.com/in/edoardo-giambuzzi-45876599/">
-                    <h5 className="text-3xl font-bold ml-2 mb-2 cursor-pointer hover:text-blue-500 transition duration-300">
-                      LinkedIn
-                    </h5>
-                  </a>
-                  <h5 className="text-3xl font-bold ml-2 mb-2 cursor-pointer hover:text-blue-500 transition duration-300">
-                    Blog
-                  </h5>
-                </div>
-              </div>
-              <div className="flex w-1/3 items-center justify-center">
-                <img
-                  className="h-52 w-52 object-cover rounded-full"
-                  src="https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708695526/portfolio/edo-logo_jdaxxe.png"
-                  alt="edo-cool-image"
-                />
-              </div>
-            </div>
+    <main className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-black text-white font-sans">
+      {/* HERO */}
+      <section className="w-full flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-20 gap-12">
+        {/* Left Column */}
+        <div className="md:w-2/3 text-center md:text-left">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight tracking-tight text-white">
+            Another Indie Web Developer
+          </h1>
+          <p className="text-xl mb-6 max-w-2xl leading-relaxed text-gray-300">
+            I'm <strong className="text-white">Edoardo Giambuzzi</strong>, based
+            in Berlin. I craft web experiences that elevate productivity and
+            serenity.
+          </p>
+
+          {/* Links */}
+          <div className="flex flex-wrap gap-6 justify-center md:justify-start">
+            <button
+              onClick={handleContactClick}
+              className="bg-white text-black text-lg font-semibold px-6 py-3 rounded-full hover:bg-gray-300 transition"
+            >
+              Contact
+            </button>
+            <a
+              href="https://www.linkedin.com/in/edoardo-giambuzzi-45876599/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-lg font-semibold px-6 py-3 rounded-full border border-white hover:bg-white hover:text-black transition"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="#blog"
+              className="text-lg font-semibold px-6 py-3 rounded-full border border-white hover:bg-white hover:text-black transition"
+            >
+              Blog
+            </a>
           </div>
         </div>
-        <div className="flex flex-wrap flex-1 justify-center items-center h-1/2 gap-3">
+
+        {/* Right Column */}
+        <div className="md:w-1/3 flex justify-center">
+          <img
+            src="https://res.cloudinary.com/dgwvbd9ki/image/upload/v1708695526/portfolio/edo-logo_jdaxxe.png"
+            alt="Edoardo Giambuzzi"
+            className="rounded-full shadow-2xl w-60 h-60 object-cover border-4 border-white"
+          />
+        </div>
+      </section>
+
+      {/* PROJECTS */}
+      <section className="px-6 md:px-16 py-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+          Featured Projects
+        </h2>
+
+        <div className="flex flex-wrap gap-12 justify-center">
           {projects.map((project, index) => (
             <div
-              className="flex flex-col justify-evenly items-center border border-black rounded-3xl gap-4 h-full max-w-96 p-8"
               key={index}
+              className="w-full sm:w-[22rem] flex flex-col gap-6 p-6 rounded-3xl border border-white/20 shadow-2xl backdrop-blur-xl bg-white/10 hover:scale-[1.02] transition-transform"
             >
-              <div className="flex items-center gap-3">
-                <div className="bg-black flex justify-center items-center h-fit rounded-full overflow-hidden">
+              {/* Header */}
+              <div className="flex items-center gap-4">
+                <div className="bg-white p-2 rounded-full">
                   <img
-                    className="h-12 w-12"
                     src={project.logoUrl}
-                    alt="project-logo"
+                    alt={`${project.name} logo`}
+                    className="h-10 w-10 object-contain"
                   />
                 </div>
-                <h4 className="project-name">{project.name}</h4>
+                <h3 className="text-xl font-semibold text-white">
+                  {project.name}
+                </h3>
               </div>
-              <div className="flex justify-center items-center overflow-hidden bg-transparent ml-2 mr-2 rounded-3xl border border-black hover:scale-105 transition duration-300">
-                <a href={project.link}>
-                  <video
-                    className="autoplay loop h-52 w-96 object-cover rounded-3xl"
-                    src={project.videoUrl}
-                    alt="video-url"
-                    autoPlay
-                    loop
-                  ></video>
-                </a>
-              </div>
-              <p className="text-lg mx-auto justify-center">
-                {project.description}
-              </p>
-              <div className="languages">
-                <div className="flex gap-2 items-center">
-                  {project.languages.map((languageUrl, index) => (
-                    <img
-                      className="h-8 w-full"
-                      key={index}
-                      src={languageUrl}
-                      alt="language-logo"
-                    />
-                  ))}
-                </div>
+
+              {/* Video */}
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-2xl overflow-hidden border border-white/20"
+              >
+                <video
+                  src={project.videoUrl}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="h-52 w-full object-cover"
+                />
+              </a>
+
+              {/* Description */}
+              <p className="text-md text-gray-200">{project.description}</p>
+
+              {/* Languages */}
+              <div className="flex gap-3 flex-wrap items-center">
+                {project.languages.map((languageUrl, idx) => (
+                  <img
+                    key={idx}
+                    src={languageUrl}
+                    alt="language"
+                    className="h-7 w-7 object-contain"
+                  />
+                ))}
               </div>
             </div>
           ))}
         </div>
-      </div>
-    </>
+      </section>
+    </main>
   );
 };
