@@ -70,11 +70,11 @@ export const Homepage = () => {
             >
               {/* Header */}
               <div className="flex items-center gap-4">
-                <div className="bg-white p-2 rounded-full">
+                <div className="flex-shrink-0">
                   <img
                     src={project.logoUrl}
                     alt={`${project.name} logo`}
-                    className="h-10 w-10 object-contain"
+                    className="h-10 w-10 object-cover rounded-full"
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-white">
